@@ -1,14 +1,33 @@
-section {
-  margin: 1rem auto;
+.form{
+    margin: 1rem auto;
   width: 90%;
   max-width: 40rem;
-  text-align: center;
   background-color: white;
   padding: 2rem;
   border-radius: 12px;
 }
 
-button {
+.form label{
+    display: block;
+    font-weight: bolder;
+    margin-bottom: .5rem;
+    font-size: 20px;
+}
+
+.form input{
+    width: 100%;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.open-text{
+    height: 4rem;
+}
+
+form button { 
   font: inherit;
   cursor: pointer;
   background: #230052;
@@ -16,6 +35,7 @@ button {
   color: white;
   padding: 0.75rem 2rem;
   border-radius: 20px;
+  margin-left: 13.2rem;
 }
 
 button:focus {
